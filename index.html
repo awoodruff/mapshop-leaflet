@@ -1,0 +1,23 @@
+<html>
+<head>
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+	<link rel="stylesheet" href="MarkerCluster.css" />
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+	<script src="leaflet.markercluster.js"></script>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script src="underscore-min.js"></script>
+	<style>
+		#map{ height: 500px; }
+		.filter{ width: 28px; height: 28px; display: inline-block; margin: 10px; cursor: pointer; vertical-align: middle;}
+		#filter2{ background: url(rodentInsectInfestation.png) }
+		#filter3{ background: url(spoiledFood.png) }
+		#filter1{ background: url(incorrectTemperature.png) }
+	</style>
+</head>
+<body>
+	<h1>Lexington Restaurant Health Inspections</h1>
+	<div id="map"></div>
+	<div id="filters"></div>
+	<script src="interactive.js"></script>
+</body>
+</html>
